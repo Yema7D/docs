@@ -62,11 +62,3 @@ streamlit run main.py
 ```
 
 
-## Additional Information
-
-### Selenium Setup
-
-If you are using Selenium for browser automation, you might need to download a WebDriver (e.g., ChromeDriver, GeckoDriver) that matches your browser version.
-
-- **ChromeDriver**: [Download here](https://developer.chrome.com/docs/chromedriver/downloads)
-- **GeckoDriver**: [Download here](https://sourceforge.net/projects/geckodriver.mirror/)
