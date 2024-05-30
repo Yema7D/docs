@@ -4,6 +4,7 @@ from pages_.overview import load_overview
 from pages_.qlora import load_qlora
 from pages_.rag import load_rag
 from pages_.fine_tunning import load_fine_tuning
+from pages_.our_solution import load_our_solution
 
 
 # Dictionary to map button names to page-loading functions
@@ -11,7 +12,8 @@ pages = {
     "Overview": load_overview,
     "QLoRA":load_qlora,
     "Fine-Tuning": load_fine_tuning,
-    "RAG" : load_rag
+    "RAG" : load_rag,
+    "Our Solution": load_our_solution
 }
 
 # Sidebar buttons to switch pages
